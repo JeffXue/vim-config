@@ -19,6 +19,8 @@ Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'bling/vim-airline'
 Plugin 'altercation/vim-colors-solarized'
 
+Plugin 'plasticboy/vim-markdown'
+
 call vundle#end()
 
 "允许加载文件类型插件, 允许为不同类型的文件定义不同的缩进格式
@@ -102,3 +104,6 @@ let g:ctrlp_working_path_mode = 'ra'
 "设置TAB为4个空格
 set ts=4
 set expandtab
+
+"markdown语法高亮配置
+let g:vim_markdown_frontmatter=1

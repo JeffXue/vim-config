@@ -19,6 +19,7 @@ Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'bling/vim-airline'
 Plugin 'altercation/vim-colors-solarized'
 
+Plugin 'godlygeek/tabular'
 Plugin 'plasticboy/vim-markdown'
 
 call vundle#end()
@@ -107,3 +108,5 @@ set expandtab
 
 "markdown语法高亮配置
 let g:vim_markdown_frontmatter=1
+"enable/disable folding use vim's standard folding configuration
+set foldenable

@@ -37,8 +37,8 @@ call togglebg#map("<F5>")
 let NERDTreeIgnore=['\.pyc$', '\~$']
 
 "配置nerdtree-tabs
-"默认打开目录树
-let g:nerdtree_tabs_open_on_console_startup=1 
+"默认关闭目录树 修改为1则默认打开目录树
+let g:nerdtree_tabs_open_on_console_startup=0
 "F2打开关闭NERDTreeTabs
 map <F2> :NERDTreeTabsToggle <CR>
 "下一个TAB

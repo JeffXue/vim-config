@@ -22,6 +22,8 @@ Plugin 'altercation/vim-colors-solarized'
 Plugin 'godlygeek/tabular'
 Plugin 'plasticboy/vim-markdown'
 
+Plugin 'ianva/vim-youdao-translater'
+
 call vundle#end()
 
 "允许加载文件类型插件, 允许为不同类型的文件定义不同的缩进格式

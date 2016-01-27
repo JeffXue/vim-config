@@ -10,10 +10,6 @@ if [ -f ~/.vim/vimrc ];then
     mv ~/.vim/vimrc ~/.vim/vimrc_$timeStramp
 fi
 
-if [ ! -d ~/.vim/plugin ];then
-	mkdir ~/.vim/plugin
-fi
-cp ./plugin/ydt.vim ~/.vim/plugin
 ln ./vimrc ~/.vim/vimrc
 vim +PluginInstall +qall
 

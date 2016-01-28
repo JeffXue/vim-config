@@ -81,9 +81,9 @@ set encoding=utf-8
 syntax on
 
 "设置有道翻译
-"普通模式下，按 ctrl+t， 会翻译当前光标下的单词
-vnoremap <silent> <C-T> <Esc>:Ydv<CR>
 "在visual模式下选中单词，按 ctrl+t，会翻译选择的单词
+vnoremap <silent> <C-T> <Esc>:Ydv<CR>
+"普通模式下，按 ctrl+t， 会翻译当前光标下的单词
 nnoremap <silent> <C-T> <Esc>:Ydc<CR>
 "点击引导键再点y，d，可以在命令行输入要翻译的单词
 noremap <leader>yd :Yde<CR>

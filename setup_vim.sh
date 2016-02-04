@@ -3,7 +3,7 @@
 apt-get install vim-nox -y
 
 if [ ! -d ~/.vim/bundle/Vundle.vim ];then
-	git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+    git clone https://github.com/gmarik/vundle ~/.vim/bundle/vundle
 fi
 
 timeStramp=`date +%Y%m%d%H%M`

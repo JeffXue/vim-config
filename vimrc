@@ -9,7 +9,7 @@ call vundle#rc()
 " let Vundle manage Vundle
 Bundle 'gmarik/vundle'
 " Python and PHP Debugger
-Bundle 'jabapyth/vim-debug.vim'
+Bundle 'fisadev/vim-debug.vim'
 " Better file browser
 Bundle 'scrooloose/nerdtree'
 Bundle 'jistr/vim-nerdtree-tabs'
@@ -320,7 +320,6 @@ inoremap <expr><C-g>     neocomplete#undo_completion()
 inoremap <expr><C-l>     neocomplete#complete_common_string()
 
 " Recommended key-mappings
-inoremap <silent> <CR> <C-r>=<SID>my_cr_function()<CR>
 " <TAB>: completion
 inoremap <expr><TAB>  pumvisible() ? "\<C-n>" : "\<TAB>"
 " Close popup by <CR>.

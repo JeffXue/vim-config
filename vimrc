@@ -68,6 +68,9 @@ Bundle 'ianva/vim-youdao-translater'
 Bundle 'godlygeek/tabular'
 Bundle 'elzr/vim-json'
 Bundle 'plasticboy/vim-markdown'
+" Automatically sort python imports
+Bundle 'fisadev/vim-isort'
+
 
 " allow plugins by file type (required for plugins!)
 filetype plugin indent on

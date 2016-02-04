@@ -1,7 +1,7 @@
 #!/bin/bash
 
-apt-get install vim-nox exuberant-ctags -y
-pip install dbgp vim-debug pep8 flake8 pyflakes isort
+sudo apt-get install vim-nox exuberant-ctags -y
+sudo pip install dbgp vim-debug pep8 flake8 pyflakes isort
 
 if [ ! -d ~/.vim/bundle/Vundle.vim ];then
     git clone https://github.com/gmarik/vundle ~/.vim/bundle/vundle

@@ -83,6 +83,8 @@ set tabstop=4
 set softtabstop=4
 set shiftwidth=4
 
+set backspace=indent,eol,start
+
 " tab length exceptions on some file types
 autocmd FileType html setlocal shiftwidth=2 tabstop=2 softtabstop=2
 autocmd FileType htmldjango setlocal shiftwidth=2 tabstop=2 softtabstop=2

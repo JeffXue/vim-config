@@ -155,6 +155,8 @@ map <F2> :PymodeLintAuto<CR>
 
 " NERDTree ----------------------------- 
 
+"默认关闭目录树 修改为1则默认打开目录树
+let g:nerdtree_tabs_open_on_console_startup=0
 " toggle nerdtree display
 map <F3> :NERDTreeTabsToggle<CR>
 " open nerdtree with the current file selected

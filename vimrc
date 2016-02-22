@@ -156,7 +156,7 @@ map <F2> :PymodeLintAuto<CR>
 " NERDTree ----------------------------- 
 
 "默认关闭目录树 修改为1则默认打开目录树
-let g:nerdtree_tabs_open_on_console_startup=0
+let g:nerdtree_tabs_open_on_console_startup=1
 " toggle nerdtree display
 map <F3> :NERDTreeTabsToggle<CR>
 " open nerdtree with the current file selected
@@ -287,6 +287,18 @@ let g:choosewin_overlay_enable = 1
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#whitespace#enabled = 1
 let g:airline#extensions#tabline#enabled = 1
+" to use fancy symbols for airline, uncomment the following lines and use a
+" patched font (more info on the README.rst)
+if !exists('g:airline_symbols')
+   let g:airline_symbols = {}
+endif
+let g:airline_left_sep = '⮀'
+let g:airline_left_alt_sep = '⮁'
+let g:airline_right_sep = '⮂'
+let g:airline_right_alt_sep = '⮃'
+let g:airline_symbols.branch = '⭠'
+let g:airline_symbols.readonly = '⭤'
+let g:airline_symbols.linenr = '⭡'
 
 " markdown support ------------------------------
 let g:vim_markdown_frontmatter=1

@@ -103,6 +103,7 @@ set nu
 set noswapfile
 set encoding=utf-8
 
+
 " tab navigation mappings
 " next tab
 map <C-l> :tabn<CR>
@@ -156,7 +157,7 @@ map <F2> :PymodeLintAuto<CR>
 " NERDTree ----------------------------- 
 
 "默认关闭目录树 修改为1则默认打开目录树
-let g:nerdtree_tabs_open_on_console_startup=1
+let g:nerdtree_tabs_open_on_console_startup=0
 " toggle nerdtree display
 map <F3> :NERDTreeTabsToggle<CR>
 " open nerdtree with the current file selected
@@ -176,14 +177,18 @@ let g:tagbar_autofocus = 0
 " disable default mappings, have a lot of conflicts with other plugins
 let g:vim_debug_disable_mappings = 1
 " add some useful mappings
-map <F5> :Dbg over<CR>
-map <F6> :Dbg into<CR>
-map <F7> :Dbg out<CR>
-map <F8> :Dbg here<CR>
-map <F9> :Dbg break<CR>
-map <F10> :Dbg watch<CR>
-map <F11> :Dbg down<CR>
-map <F12> :Dbg up<CR>
+" map <F5> :Dbg over<CR>
+" map <F6> :Dbg into<CR>
+" map <F7> :Dbg out<CR>
+" map <F8> :Dbg here<CR>
+" map <F9> :Dbg break<CR>
+" map <F10> :Dbg watch<CR>
+" map <F11> :Dbg down<CR>
+" map <F12> :Dbg up<CR>
+
+" 绑定快捷键来激活/取消paste模式
+set pastetoggle=<F11>
+
 
 " CtrlP ------------------------------
 

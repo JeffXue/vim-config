@@ -156,7 +156,7 @@ map <F2> :PymodeLintAuto<CR>
 
 " NERDTree ----------------------------- 
 
-"默认关闭目录树 修改为1则默认打开目录树
+" not open nerdtree by default, set 1 to enbale
 let g:nerdtree_tabs_open_on_console_startup=0
 " toggle nerdtree display
 map <F3> :NERDTreeTabsToggle<CR>
@@ -186,9 +186,8 @@ let g:vim_debug_disable_mappings = 1
 " map <F11> :Dbg down<CR>
 " map <F12> :Dbg up<CR>
 
-" 绑定快捷键来激活/取消paste模式
+" paste toggle
 set pastetoggle=<F11>
-
 
 " CtrlP ------------------------------
 

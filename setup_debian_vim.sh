@@ -13,7 +13,7 @@ fi
 
 
 vim_lua_flag=`vim --version |grep +lua |wc -l`
-if [ $vim_lua_flag -eq ];then
+if [ $vim_lua_flag -eq 0 ];then
     wget --no-check-certificate https://raw.githubusercontent.com/JeffXue/common_scripts/master/install_vim7.4.sh
     chmod +x install_vim7.4.sh
     ./install_vim7.4.sh

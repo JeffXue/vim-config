@@ -288,7 +288,7 @@ nmap  -  <Plug>(choosewin)
 let g:choosewin_overlay_enable = 1
 
 " Airline ------------------------------
-let g:airline_powerline_fonts = 1
+let g:airline_powerline_fonts = 0
 let g:airline#extensions#whitespace#enabled = 1
 let g:airline#extensions#tabline#enabled = 1
 " to use fancy symbols for airline, uncomment the following lines and use a
@@ -308,9 +308,8 @@ let g:airline#extensions#tabline#enabled = 1
 let g:vim_markdown_frontmatter=1
 let g:vim_markdown_folding_disabled = 0
 let g:vim_markdown_folding_style_pythonic = 1
-let g:vim_markdown_folding_level = 6
+let g:vim_markdown_folding_level = 1
 let g:vim_markdown_math = 1
-let g:vim_markdown_frontmatter = 1
 let g:vim_markdown_json_frontmatter = 1
 
 " neocomplete -------------------------------
